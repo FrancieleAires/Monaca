@@ -1,2 +1,126 @@
-/**/
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+body {
+    background-color: #1B2029;
+    color: white;
+    font-weight: 500;
+    display: flex;
+    min-height: 100vh;
+    height: 40px;
+    margin-left: 20%;
+   
+    
+}
+
+main {
+    height: 50vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+main h1 {
+    color: #E76D5B;
+    font-size: 3rem;
+    margin-bottom: 3rem;
+    
+}
+main .social-media  {
+    display: flex;
+    align-content: center;
+    margin-right: 3rem;
+
+}
+
+main .social-media img {
+    width: 36px;
+    margin-left: 3rem;
+}
+main .social-media a {
+   text-decoration: none;
+}
+
+main .social-media a:first-child img {
+    margin-left: 0;
+}
+
+main .alternativo {
+    margin-top: 1rem;
+}
+
+main .alternativo span {
+    font-size: 1.1rem;
+    font-weight: 400;
+    color: rgba(172, 172, 171, 0.5);
+    position: relative;
+
+}
+main .alternativo span::before, main .alternativo span::after {
+    position: absolute;
+    content: '';
+    height: 2px;
+    width: 100px;
+    bottom: 50%;
+    right: 50px;
+    background: rgba(172, 172, 171, 0.5); ;
+}
+main .alternativo span::after {
+    left: 50px;
+}
+
+main form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+main form label {
+    display: flex;
+    flex-direction: column;
+}
+main form label span {
+    font-size: 1.1rem;
+    margin-top: 15px;
+}
+
+main form input {
+    background: #161923;
+    width: 300px;
+    height: 50px;
+    padding: 0 0.5; 
+    margin-top: 1rem;
+    outline: none;
+    color: rgba(166, 166, 166);
+    font-size: 1rem;
+    border: 1px;
+    border-radius: 8px;
+
+}
+
+main form input[ type="submit"] {
+    cursor: pointer;
+    width: 50%;
+    margin-top: 3rem;
+    border: none;
+    border-radius: 32px;
+    background-color: #E76D5B;;
+    color: white;
+    font-size: 1.1rem;
+    transition: all .4s ease-in-out;
+}
+
+main form input[ type="submit"]:hover {
+    background: #a9341d;
+
+}
+
+
 
